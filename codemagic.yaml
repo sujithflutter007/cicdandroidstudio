@@ -37,13 +37,4 @@ workflows:
       email:
         recipients:
           - your-email@example.com
-      firebase:
-        firebase_token: $FIREBASE_TOKEN
-        android:
-          app_id: $FIREBASE_ANDROID_APP_ID
-          groups:
-            - testers
-        ios:
-          app_id: $FIREBASE_IOS_APP_ID
-          groups:
-            - testers
+
